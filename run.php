@@ -5,6 +5,7 @@
     $email = trim(fgets(STDIN)) or die("!email harus di isi dengan benar.");
     echo "Password \t: ";
     $password = trim(fgets(STDIN)) or die("!password harus di isi dengan benar.");
+    echo "Sedang mengambil link target.";
 
     $read = imap_open($host,$email,$password);
     $array = imap_search($read,'SUBJECT "BIGtoken"');
@@ -19,4 +20,6 @@
         $link = $links[1]->getAttribute('href')."\n";  
         file_put_contents('link.txt', $link, FILE_APPEND | LOCK_EX);
      }
+     echo "Selesai mengambil link target.";
+     echo "Link tersimpan di [link.txt]";
 ?>
