@@ -1,5 +1,7 @@
 # BigtokenGrabLinkGmail
-Created by Rangga Djatikusuma Lukman (https://web.facebook.com/xntax).
+First source code by Rangga Djatikusuma Lukman (https://web.facebook.com/xntax).
+
+Edited and update by Wahyu Arif P
 
 # Required
 * Active IMAP
