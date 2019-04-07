@@ -1,5 +1,13 @@
 <?php
 
+echo "
+########################################
+Jangan lupa donasi!\n
+> Paypal : paypal.me/wahyuarifpurnomo\n
+> OVO\t: 087719090011\n
+Terimakasih banyak yang sudah donasi :')
+########################################\n\n";
+
     $host = "{imap.gmail.com:993/imap/ssl/novalidate-cert}INBOX";
     echo "Email \t\t: ";
     $email = trim(fgets(STDIN)) or die("!email harus di isi dengan benar.");
